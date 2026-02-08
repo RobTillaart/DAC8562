@@ -3,6 +3,7 @@
 //  AUTHOR: Rob Tillaart
 // PURPOSE: Arduino library for DAC8562 SPI 16 bit dual channel DAC.
 // VERSION: 0.1.0
+//    DATE: 2025-01-29
 //     URL: https://github.com/RobTillaart/DAC8562
 
 
