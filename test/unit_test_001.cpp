@@ -90,9 +90,9 @@ unittest(test_HW_constructor)
   for (uint16_t val = 0; val < 65500; val += 30)
   {
     myDAC.setValue(val);
-    if (myDAC.getValue() != val)
+    if (myDAC.getValue(0) != val)
     {
-      fprintf(stderr, "%d -> %d\n", val, myDAC.getValue());
+      fprintf(stderr, "%d -> %d\n", val, myDAC.getValue(0));
     }
   }
   myDAC.setValue(100);
@@ -109,9 +109,9 @@ unittest(test_SW_constructor)
   for (uint16_t val = 0; val < 65500; val += 30)
   {
     myDAC.setValue(val);
-    if (myDAC.getValue() != val)
+    if (myDAC.getValue(0) != val)
     {
-      fprintf(stderr, "%d -> %d\n", val, myDAC.getValue());
+      fprintf(stderr, "%d -> %d\n", val, myDAC.getValue(0));
     }
   }
   myDAC.setValue(100);
