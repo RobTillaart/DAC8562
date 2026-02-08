@@ -81,11 +81,11 @@ unittest(test_constructors_maxValue)
   DAC6.begin();
 
   assertEqual(DAC1.getValue(0), 0);
-  assertEqual(DAC2.getValue(0), 2047);
+  assertEqual(DAC2.getValue(0), 2048);
   assertEqual(DAC3.getValue(0), 0);
-  assertEqual(DAC4.getValue(0), 8191);
+  assertEqual(DAC4.getValue(0), 8192);
   assertEqual(DAC5.getValue(0), 0);
-  assertEqual(DAC6.getValue(0), 32767);
+  assertEqual(DAC6.getValue(0), 32768);
 
 }
 
