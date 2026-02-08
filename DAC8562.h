@@ -101,30 +101,35 @@ protected:
 //
 class DAC7562 : public DAC8562
 {
+public:
   DAC7562(uint8_t select, __SPI_CLASS__ * spi = &SPI, uint8_t LDAC = 255, uint8_t CLR = 255);
   DAC7562(uint8_t select, uint8_t spiData, uint8_t spiClock, uint8_t LDAC = 255, uint8_t CLR = 255);
 };
 
 class DAC7563 : public DAC8562
 {
+public:
   DAC7563(uint8_t select, __SPI_CLASS__ * spi = &SPI, uint8_t LDAC = 255, uint8_t CLR = 255);
   DAC7563(uint8_t select, uint8_t spiData, uint8_t spiClock, uint8_t LDAC = 255, uint8_t CLR = 255);
 };
 
 class DAC8162 : public DAC8562
 {
+public:
   DAC8162(uint8_t select, __SPI_CLASS__ * spi = &SPI, uint8_t LDAC = 255, uint8_t CLR = 255);
   DAC8162(uint8_t select, uint8_t spiData, uint8_t spiClock, uint8_t LDAC = 255, uint8_t CLR = 255);
 };
 
 class DAC8163 : public DAC8562
 {
+public:
   DAC8163(uint8_t select, __SPI_CLASS__ * spi = &SPI, uint8_t LDAC = 255, uint8_t CLR = 255);
   DAC8163(uint8_t select, uint8_t spiData, uint8_t spiClock, uint8_t LDAC = 255, uint8_t CLR = 255);
 };
 
 class DAC8563 : public DAC8562
 {
+public:
   DAC8563(uint8_t select, __SPI_CLASS__ * spi = &SPI, uint8_t LDAC = 255, uint8_t CLR = 255);
   DAC8563(uint8_t select, uint8_t spiData, uint8_t spiClock, uint8_t LDAC = 255, uint8_t CLR = 255);
 };
